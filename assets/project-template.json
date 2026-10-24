@@ -1,0 +1,44 @@
+{
+  "project": {
+    "id": "replace-with-stable-project-id",
+    "name": "Fictional academic writing project",
+    "request": "Prepare a source-backed discussion section from authorized materials.",
+    "category": "writing",
+    "secondary_categories": ["research"],
+    "summary": "Connect claims to evidence and deliver a revised discussion.",
+    "status": "planning",
+    "assumptions": ["Schema example only; replace fictional task content."],
+    "preparation": [{"item": "Locate authorized source excerpts", "status": "pending", "detail": "Use actual approved source locations."}],
+    "recommended_flow": ["Inspect evidence", "Draft", "Review and revise", "Deliver"],
+    "git_note": "Record actual snapshot coverage or why no snapshot was made."
+  },
+  "contract": {
+    "version": 1,
+    "status": "draft",
+    "goal": "Produce a discussion whose claims match available evidence.",
+    "scope": ["The authorized manuscript section"],
+    "deliverables": ["Revised discussion in the requested format"],
+    "acceptance": ["Claims have identifiable support or explicit gaps"],
+    "responsibilities": ["The author controls positions; the agent performs authorized work"],
+    "constraints": ["Do not persist cognitive profiles or private collaboration history"],
+    "milestones": ["A source-grounded outline"],
+    "change_policy": "Keep unit IDs stable and increase the agreement version for content changes.",
+    "agreement_evidence": ""
+  },
+  "units": [
+    {
+      "id": "U001", "category": "research", "action": "Map a claim to accessible evidence",
+      "inputs": ["Authorized source excerpts and proposed claim"], "outputs": ["Claim-evidence map"],
+      "depends_on": [], "acceptance": ["Support and limits are distinguished"],
+      "status": "pending", "evidence": [], "blocker": ""
+    },
+    {
+      "id": "U002", "category": "writing", "action": "Draft the discussion",
+      "inputs": ["Completed evidence map"], "outputs": ["Discussion section"],
+      "depends_on": ["U001"], "acceptance": ["Findings and interpretation are distinguished"],
+      "status": "pending", "evidence": [], "blocker": ""
+    }
+  ],
+  "skills": [],
+  "artifacts": []
+}

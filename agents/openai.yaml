@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cognitive Academic Writing"
+  short_description: "Academic writing, evidence, and optional project archives"
+  default_prompt: "Use $cognitive-academic-writing to coordinate my academic writing project, strengthen its argument, verify evidence, and preserve my control over revisions."
